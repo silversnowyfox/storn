@@ -37,32 +37,32 @@ namespace storn
             if (b == 0)
             {
                 pictureBox1.Image = Image.FromFile("C:\\Users\\admin\\Desktop\\storn\\0.jpg");//布
-                label1.Text = "剪刀";
+                label1.Text = "布";
             }
             if (b == 1)
             {
                 pictureBox1.Image = Image.FromFile("C:\\Users\\admin\\Desktop\\storn\\1.jpg");//剪刀
-                label1.Text = "石頭";
+                label1.Text = "剪刀";
             }
             if (b == 2)
             {
                 pictureBox1.Image = Image.FromFile("C:\\Users\\admin\\Desktop\\storn\\2.jpg");//石頭
-                label1.Text = "布";
+                label1.Text = "石頭";
             }
             if (a == 0)
             {
                 pictureBox2.Image = Image.FromFile("C:\\Users\\admin\\Desktop\\storn\\0.jpg");
-                label4.Text = "剪刀";
+                label4.Text = "布";
             }
             if (a == 1)
             {
                 pictureBox2.Image = Image.FromFile("C:\\Users\\admin\\Desktop\\storn\\1.jpg");
-                label4.Text = "石頭";
+                label4.Text = "剪刀";
             }
             if (a == 2)
             {
                 pictureBox2.Image = Image.FromFile("C:\\Users\\admin\\Desktop\\storn\\2.jpg");
-                label4.Text = "布";
+                label4.Text = "石頭";
             }
 
             if (a == b)
